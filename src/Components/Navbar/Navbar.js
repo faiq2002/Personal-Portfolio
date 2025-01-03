@@ -10,14 +10,14 @@ export default function Navbar() {
       duration: 1200, // Animation duration
       offset: 100, // Offset before animation starts
       easing: "ease-in-out", // Animation easing
-      once: true,
+      
     });
   }, []);
 
   return (
     <nav
       className="navbar navbar-expand-md  d-flex px-5 "
-      data-aos="fade-down"
+      data-aos="fade-down   data-aos-once"
     >
       <div className="container-fluid">
         <a className="navbar-brand text-dark fw-bold" href="/">
@@ -125,14 +125,14 @@ export default function Navbar() {
               <li className="nav-item cursor px-3 py-2  shadow border-0 getintouch ">
                 <Link
                   activeClass="text-light"
-                  to="contact"
+                  to="footer"
                   spy={true}
                   smooth={true}
                   offset={-50}
                   duration={100}
                   className=" text-light decoration"
                 >
-                  Get In Touch
+                  Socials
                 </Link>
               </li>
             </ul>

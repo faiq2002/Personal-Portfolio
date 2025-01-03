@@ -84,7 +84,7 @@ export default function About() {
                 d="M17 15V18M17 21V18M17 18H14M17 18H20"
               />
             </svg>
-         <a href="https://drive.google.com/file/d/1gvDaFlANvGHj53hVzEUa_l0W7Qujc5Hx/view?usp=drive_link" className="decoration" target="blank" >View Resume</a>
+         <a href="https://drive.google.com/file/d/1gvDaFlANvGHj53hVzEUa_l0W7Qujc5Hx/view?usp=drive_link" className="decoration text-light" target="blank" >View Resume</a>
           </button>
         </div>
       </div>

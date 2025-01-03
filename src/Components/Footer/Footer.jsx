@@ -13,7 +13,7 @@ export default function Footer() {
     } , []);
     
 return (
-    <footer>
+    <footer id='footer'>
         <div className="container-fluid bg-dark footer">
             <div className="container pt-2 pb-5">
                 <h1 className="text-center text-light display-4 py-5 cursor" data-aos="fade-up"
@@ -48,9 +48,12 @@ return (
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
+            data-aos="fade-down"
         >
             <i className="fab fa-whatsapp whatsapp-icon fa-2x "></i>
         </a>
+
+       
     </footer>
 )
 }

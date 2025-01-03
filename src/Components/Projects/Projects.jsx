@@ -138,6 +138,7 @@ export default function Projects() {
 
            </div>
            <div className='col-12 m-auto text-center my-5'>
+           <a href="https://github.com/faiq2002" target='blank' className='decoration text-light '> 
         
 <button href="#" class="button-pro  " data-aos="zoom-in " data-aos-delay="500">
   <span class="button__icon-wrapper">
@@ -167,8 +168,9 @@ export default function Projects() {
       ></path>
     </svg>
   </span>
-  View All Projects
+ View All Projects
 </button>
+</a>
 
             </div>
         </div>
