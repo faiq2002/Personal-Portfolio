@@ -38,8 +38,8 @@ export default function Hero({handleGetInTouch}) {
       
      
      <button onClick={handleGetInTouch}
-     className="button mt-5 btn-lg" data-aos="zoom-in"
-            data-aos-delay="500">
+     className="button mt-5 btn-lg" data-aos="zoom-in" data-aos-offset="-100"
+            data-aos-delay="700">
   <span class="text">Get In Touch</span>
 </button>
 

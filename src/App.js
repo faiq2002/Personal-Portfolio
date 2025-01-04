@@ -108,7 +108,9 @@ function App() {
         />
       </div>
       <div className="background"></div>
-      <Navbar />
+    
+     <Navbar />
+     
       <Hero handleGetInTouch={handleGetInTouch} />
       <About />
       <Skills />

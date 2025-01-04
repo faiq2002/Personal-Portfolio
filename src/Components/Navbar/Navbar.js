@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="navbar navbar-expand-md  d-flex px-5 "
+      className="navbar navbar-expand  d-flex px-lg-5 py-3 "
       data-aos="fade-down   data-aos-once"
     >
       <div className="container-fluid">
@@ -50,8 +50,8 @@ export default function Navbar() {
               aria-label="Close"
             ></button>
           </div>
-          <div className="offcanvas-body">
-            <ul className="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3 gap-4">
+          <div className="offcanvas-body float-end">
+            <ul className="navbar-nav  d-none d-lg-flex d-md-flex justify-content-end align-items-center flex-grow-1 pe-3 gap-4">
               <li className="nav-item cursor">
                 <Link
                   activeClass="active"
@@ -123,21 +123,34 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item cursor px-3 py-2  shadow border-0 getintouch ">
-                <Link
-                  activeClass="text-light"
-                  to="footer"
-                  spy={true}
-                  smooth={true}
-                  offset={-50}
-                  duration={100}
+                <a
+                  
+                  href="https://drive.google.com/file/d/1gvDaFlANvGHj53hVzEUa_l0W7Qujc5Hx/view?usp=drive_link"
+                 target="blank"
                   className=" text-light decoration"
                 >
-                  Socials
-                </Link>
+                 Resume
+                </a>
               </li>
             </ul>
+
+           
           </div>
+         
         </div>
+        <ul className="navbar-nav  d-block  d-lg-none d-md-none float-end justify-content-end align-items-center  ">
+            <li className="nav-item cursor px-3 py-2  shadow border-0 getintouch ">
+            <a
+                  
+                  href="https://drive.google.com/file/d/1gvDaFlANvGHj53hVzEUa_l0W7Qujc5Hx/view?usp=drive_link"
+                 target="blank"
+                  className=" text-light decoration"
+                >
+                 Resume
+                </a>
+                </li>
+
+            </ul>
       </div>
     </nav>
   );

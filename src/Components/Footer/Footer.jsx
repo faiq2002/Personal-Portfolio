@@ -14,7 +14,7 @@ export default function Footer() {
     
 return (
     <footer id='footer'>
-        <div className="container-fluid bg-dark footer">
+        <div className="container-fluid bg-dark footer m-0 p-0">
             <div className="container pt-2 pb-5">
                 <h1 className="text-center text-light display-4 py-5 cursor" data-aos="fade-up"
                 onClick={()=>(window.scrollTo(0,0))}>
@@ -44,7 +44,7 @@ return (
         <a
             href="https://wa.me/+923146997979
 "
-            className="whatsapp_float" 
+            className="whatsapp_float " 
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
