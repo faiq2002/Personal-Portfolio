@@ -3,6 +3,7 @@ import "../Hero/Hero.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import school from "../../Assets/school.jpg";
 export default function Education() {
   useEffect(() => {
     AOS.init({
@@ -87,7 +88,7 @@ export default function Education() {
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-12">
                     <img
-                      src="https://lcci.pk/wp-content/uploads/2023/08/ASPIRE-COLLEGE-Header-Image.jpg"
+                      src="https://scontent.fskt12-1.fna.fbcdn.net/v/t39.30808-6/474976770_1141636597381820_3478010943801634688_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEWymFFxuireFqiU5t56Hx2JbLZ-j_GuTclstn6P8a5N0UvUJ4LYUsN17sMhHA_9OI-nq_ZDQpRF3YkR00ep5st&_nc_ohc=4dW36Va8NZkQ7kNvgGr6zS_&_nc_oc=AdipW5AOnMumshhocgF6ooSPqXykfFcsb77nMU0mLgMUlu61mqAT3Jm6Q_B9NMcEZNX61SvUfnxGC_VVRRrtXQRM&_nc_zt=23&_nc_ht=scontent.fskt12-1.fna&_nc_gid=AZJ8F1bcYSc4E8BXTP1ETUK&oh=00_AYCprei4-Ez5XYRIs2iKKB5m628AMbYb1YtZScR2b8jXoQ&oe=679D6740"
                       className="img-fluid w-100 h-100 rounded-start"
                       alt="University"
                     />
@@ -120,7 +121,7 @@ export default function Education() {
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-12">
                     <img
-                      src="https://scontent.flhe5-1.fna.fbcdn.net/v/t39.30808-6/462060518_3987048461575249_7684859220983117634_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGosonTX808OhJNaAsIVcSnSJxXLlTr-hBInFcuVOv6EBj8PErS_t9WjGJRjt6jCuxwzAcEi1Ma1xstHWXCAcen&_nc_ohc=_kyoE2KyfsEQ7kNvgEuyTIj&_nc_oc=AdjcY24Mteb1yfZz4ETdvA7POtCQcp7mNKCwybboozTGfPDI4cZCreceiDvIEROoBFuuFlmWsFA_teJulB5nyZeI&_nc_zt=23&_nc_ht=scontent.flhe5-1.fna&_nc_gid=A31qbXock-6UZblV_RmR87m&oh=00_AYDLRSYVjWTkfudZh1LM5-H_73J27ptoDJtC3OmIDZLtfQ&oe=677B7DA1"
+                      src={school}
                       className="img-fluid w-100 h-100 rounded-start"
                       alt="University"
                     />

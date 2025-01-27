@@ -358,3 +358,9 @@
 {
   transform: scale(1.05);
 }
+
+.none
+{
+  list-style: none !important;
+  text-decoration: none !important;
+}

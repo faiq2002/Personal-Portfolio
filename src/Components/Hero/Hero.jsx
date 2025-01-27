@@ -18,10 +18,16 @@ export default function Hero({handleGetInTouch}) {
     <div id="hero">
       
       <div className="container h-100 d-flex flex-column align-items-start justify-content-center m-auto" data-aos="zoom-in"  > 
-         <div></div>
+         
+      <div className="d-none d-lg-block d-md-block d-xl-block" data-aos="fade-up">
       <h1 className="text-dark display-5 fw-bold" data-aos="fade-up">Hi There,<br/> my name  is <span className="d-inline display-5 fw-bold" data-aos="zoom-out">Faiq wajahat</span > </h1>
       <h1 className="text-dark fw-bold display-5">Welcome to my Portfolio<span>...</span></h1>
-      
+      </div>
+
+      <div className="d-block d-lg-none d-md-none " data-aos="fade-up">
+      <h1 className="text-dark display-5 fw-bold" data-aos="fade-up">Hi There,<br/>I'm <span className="d-inline display-5 fw-bold" data-aos="zoom-out">Faiq wajahat</span > </h1>
+      <h1 className="text-dark fw-bold display-5">My Portfolio<span>...</span></h1>
+      </div>
       
      <h3 className="text-dark" >
      <Typewriter 

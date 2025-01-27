@@ -73,9 +73,17 @@ export default function Projects() {
               inquiry form with all the authentications.
             </p>
             <div className="d-flex gap-3">
+               <a className="none"
+               href="https://arainapparel.vercel.app/" target="blank">
               <button className="btn btn-primary small shadow fw-normal rounded-75">
+             
+               
                 View Live
+               
               </button>
+              </a>
+
+              <a href="https://github.com/faiq2002/arainapparel-E-comerce-Website-" target="blank">
               <button className="cssbuttons-io small">
                 <span>
                   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -88,6 +96,7 @@ export default function Projects() {
                   Code
                 </span>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -123,9 +132,13 @@ export default function Projects() {
               user data.
             </p>
             <div className="d-flex gap-3">
+              <a className="none" target="blank" href="https://github.com/faiq2002?tab=repositories">
               <button className="btn btn-primary small shadow fw-normal rounded-75">
                 View Live
               </button>
+              </a>
+
+              <a className="none" target="blank" href="https://github.com/faiq2002?tab=repositories">
               <button className="cssbuttons-io small">
                 <span>
                   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -138,6 +151,7 @@ export default function Projects() {
                   Code
                 </span>
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -172,9 +186,13 @@ export default function Projects() {
               Particles, Typewriter, and Browser Scroll Animations.
             </p>
             <div className="d-flex gap-3">
+              <a className='none' href="https://rococo-mochi-14897b.netlify.app/" target="blank">
               <button className="btn btn-primary small shadow fw-normal rounded-75">
                 View Live
               </button>
+              </a>
+
+              <a href="https://github.com/faiq2002/Personal-Portfolio" target="blank">
               <button className="cssbuttons-io small">
                 <span>
                   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -187,6 +205,7 @@ export default function Projects() {
                   Code
                 </span>
               </button>
+              </a>
             </div>
           </div>
         </div>

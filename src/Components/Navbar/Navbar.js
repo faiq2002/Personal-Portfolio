@@ -142,7 +142,7 @@ export default function Navbar() {
             <li className="nav-item cursor px-3 py-2  shadow border-0 getintouch ">
             <a
                   
-                  href="https://drive.google.com/file/d/1gvDaFlANvGHj53hVzEUa_l0W7Qujc5Hx/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1gvDaFlANvGHj53hVzEUa_l0W7Qujc5Hx/view?usp=sharing"
                  target="blank"
                   className=" text-light decoration"
                 >
