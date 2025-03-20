@@ -90,7 +90,7 @@ export default function Education() {
                     <img
                       src="https://newdoor.pk/wp-content/uploads/2023/09/aspire-college-jhelum-1-convert.io_-1024x683.webp"
                       className="img-fluid w-100 h-100 rounded-start"
-                      alt="University"
+                      alt="College"
                     />
                   </div>
                   <div className="col-lg-8 col-md-6 col">
