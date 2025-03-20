@@ -88,7 +88,7 @@ export default function Education() {
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-12">
                     <img
-                      src="https://scontent.fskt12-1.fna.fbcdn.net/v/t39.30808-6/474976770_1141636597381820_3478010943801634688_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEWymFFxuireFqiU5t56Hx2JbLZ-j_GuTclstn6P8a5N0UvUJ4LYUsN17sMhHA_9OI-nq_ZDQpRF3YkR00ep5st&_nc_ohc=4dW36Va8NZkQ7kNvgGr6zS_&_nc_oc=AdipW5AOnMumshhocgF6ooSPqXykfFcsb77nMU0mLgMUlu61mqAT3Jm6Q_B9NMcEZNX61SvUfnxGC_VVRRrtXQRM&_nc_zt=23&_nc_ht=scontent.fskt12-1.fna&_nc_gid=AZJ8F1bcYSc4E8BXTP1ETUK&oh=00_AYCprei4-Ez5XYRIs2iKKB5m628AMbYb1YtZScR2b8jXoQ&oe=679D6740"
+                      src="https://newdoor.pk/wp-content/uploads/2023/09/aspire-college-jhelum-1-convert.io_-1024x683.webp"
                       className="img-fluid w-100 h-100 rounded-start"
                       alt="University"
                     />
